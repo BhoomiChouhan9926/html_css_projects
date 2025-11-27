@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+ html, body{
+    height: 100%;
+    width: 100%;
+ }
+  
+ .main {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1723342187065-3b0dac226d63?q=80&w=1410&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+    text-align: center;
+ }
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: oblique;
+    color: #101E25;
+    margin-bottom: 35px;
+    cursor: pointer;
+ }
+
+ h1:hover{
+    color: rgb(15, 44, 58);
+    transform: scale(1.05);
+ }
+ #p1{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #p2{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(129, 123, 123);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ button{
+padding: 15px 30px;
+color: white;
+margin-top: 25px;
+font-size: 25px;
+font-weight: 400;
+background-color:#101E25 ;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+
+ }
+ button:hover{
+    background-color: rgb(15, 44, 58);
+    transform: scale(1.05);
+ }
