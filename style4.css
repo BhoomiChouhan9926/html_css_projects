@@ -3,3 +3,84 @@
     src: url(./sf-pro-text_regular-italic.woff2) format("woff2"),
          
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font1;
+}
+html, body {
+
+    height: 100%;
+    width: 100%;
+ 
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #0c0c0c;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+#nav{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    height: 45px;
+    background-color: rgb(37, 37, 37);
+    background-image: url();
+}
+
+#nav h5{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+#text{
+    text-align: center;
+  padding: 50px;
+}
+#text h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+#text h3{
+    color: white;
+    font-size: 33px;
+    font-weight: 400;
+
+}
+#link
+{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px;
+}
+#link button{
+   padding: 13px 25px;
+   background-color: rgb(44, 44, 234);
+   color: white;
+   font-weight: 100;
+   border-radius: 50px;
+   border: none;
+   font-size: 18px;
+}
+ #link #btn2{
+    background-color: transparent;
+    border: 2px solid rgb(44, 44, 234);
+    color: rgb(44, 44, 234);
+}
+
+#link #btn2:hover{
+    background-color:rgb(44, 44, 234);
+    color: white;
+    transition: 0.3s;
+}
